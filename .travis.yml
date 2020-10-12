@@ -73,8 +73,8 @@ deploy:
   prerelease: true
   # necessary to deploy in github, otherwise it would clean everything
   skip_cleanup: true
-  # secret API_KEY stored in Travis CI
-  api_key: "${API_KEY}"
+  # secret GH_API_KEY stored in Travis CI
+  api_key: "${GH_API_KEY}"
   # files to copy to github release
   file:
     - "dist/yakyak-${YAKYAK_VERSION}-osx.zip"
