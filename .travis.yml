@@ -4,6 +4,9 @@ node_js:
 notifications:
   email: false
 
+env:
+  - NPM_DEBUG_LEVEL=verbose
+
 #
 # precise does not have wine1.6-i386
 #  it would be necessary to add wine ppa
